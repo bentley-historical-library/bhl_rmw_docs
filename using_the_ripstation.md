@@ -1,15 +1,15 @@
 # Using the RipStation
-The RipStation allows you to automate the transfer of content off of large batches of optical media. When a collection contains large amounts of CDs and/or DVDs, using the RipStation may be more efficient than individually transferring content from discs using the removable media workstation. Consult with the Archivist for Metadata Digital Curation when processing collections with large amounts of optical media (i.e. CDs and DVDs).
+The [RipStation](http://www.mfdigital.com/ripstation.html) allows you to automate the transfer of content off of large batches of optical media. When a collection contains large amounts of CDs and/or DVDs, using the RipStation may be more efficient than individually transferring content from discs using the removable media workstation. Consult with the Archivist for Metadata Digital Curation when processing collections with large amounts of optical media (i.e. CDs and DVDs).
 
 The RipStation requires the use of different software based on the content stored on the optical discs. For data CDs and DVDs, the DataGrabber program is used. For audio-formatted discs, the RipStation program is used. For video-formatted discs, the MediaGrabber program is used. See the following workflow for further instruction.
 
 **Table of Contents**
-- Preliminary Procedures
-- Working with Data CDs and DVDs
-- Working with Audi-formatted CDs
-- Working with Video-formatted DVDs
-- Finishing Up
-- Troubleshooting
+- [Preliminary Procedures](#preliminary-procedures)
+- [Working with Data CDs and DVDs](#working-with-data-cds-and-dvds)
+- [Working with Audio-formatted CDs](#working-with-audio-formatted-cds)
+- [Working with Video-formatted DVDs](#working-with-video-formatted-dvds)
+- [Finishing Up](#finishing-up)
+- [Troubleshooting](#troubleshooting)
 
 
 ## Preliminary Procedures
@@ -113,9 +113,13 @@ These instructions assume that all AutoPlay defaults are set to "Take no action"
   - Set "Reject discs which are not recognized with:" to 2.5 minutes
   - Check "Copy file creation and modification time stamps"
   - Check "Rip sequentially"
+
 ![Rejects Settings](images/rejects_settings.png "Rejects Settings")
+
 - Under the "Reports" tab, ensure that "Log full batch log to file" is checked
+
 ![Reports Settings](images/reports_settings.png "Reports Settings")
+
 - Select the load type on the right-hand side of the window:
   - MFD
   - Advanced

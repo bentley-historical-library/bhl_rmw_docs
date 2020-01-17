@@ -24,7 +24,7 @@ The first step in transferring content into the Bentley's backlog is to transfer
 
 - Connect to the R drive using the bhl-digitalarchive.bat program (you'll need to have reconnected the ethernet cable to the RMW)
 
-![bhl-digitalarchive](images/bhl-digitalarchive.png "bhl-digitalarchive")
+![bhl-digitalarchive](images/bhl_digitalarchive.png "bhl-digitalarchive")
 
 - Enter your U-M username and password. This will mount the drive on the RMWs "R:" drive.
 

@@ -109,7 +109,7 @@ Transferring data from a 5.25" floppy disk requires the use of Device Side Data'
 
 >**Note**
 >
-> When a collection contains large amounts of CDs and/or DVDs, using the RipStation may be more efficient than individually transferring content from discs using the removable media workstation.
+> When a collection contains large amounts of CDs and/or DVDs, [using the RipStation](using_the_ripstation.md) may be more efficient than individually transferring content from discs using the removable media workstation.
 
 - Insert the disc into the CD/DVD drive on the RMW. From the Start menu, select This PC. Then right click on "DVD RW Drive (E:)" and select "Scan with Windows Defender..."
 
@@ -139,7 +139,7 @@ Transferring data from a 5.25" floppy disk requires the use of Device Side Data'
 
 > **Note**
 >
-> When a collection contains large amounts of CDs and/or DVDs, using the RipStation may be more efficient than individually transferring content from discs using the removable media workstation.
+> When a collection contains large amounts of CDs and/or DVDs, [using the RipStation](using_the_ripstation.md) may be more efficient than individually transferring content from discs using the removable media workstation.
 
 ### Create One Uncompressed .WAV File for Each Track with EAC
 
@@ -219,7 +219,7 @@ One way to recognize such media is by its AUDIO_TS and VIDEO_TS folders:
 
 > **Note**
 >
-> When a collection contains large amounts of CDs and/or DVDs, using the RipStation may be more efficient than individually transferring content from discs using the removable media workstation.
+> When a collection contains large amounts of CDs and/or DVDs, [using the RipStation](using_the_ripstation.md) may be more efficient than individually transferring content from discs using the removable media workstation.
 
 > **Appraisal Note**
 >

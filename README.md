@@ -18,6 +18,6 @@ These guidelines have five basic steps:
 4. [Transfer to backlog](transfer_to_backlog.md) (common to all items)
 5. Retention and disposal of physical media (unique to each collection)
 
-There's also a [Hardware and Software page](hardware_and_software.md) detailing the RMWs' equipment.
+There's also a page with instructions for [Using the RipStation](using_the_ripstation.md) and a [Hardware and Software page](hardware_and_software.md) detailing the RMWs' equipment.
 
 Please note that appraisal is as important for digital materials as it is for physical or analog materials. Appraisal tips are included throughout the guidelines.

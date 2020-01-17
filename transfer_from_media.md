@@ -14,6 +14,18 @@ This section includes procedures for transferring content from a number of physi
 >
 > Many scenarios below describe a situation in which a piece of removable media might be separated. For any removable media that is separated, prepend the barcode directory with an underscore (e.g., `_39015094761643`) and indicate that the media was separated in the `bhl_inventory.csv`, to assist with further processing of the transfer, and be sure to include the total number of separated media for each type on the Separation Record.
 
+**Table of Contents**
+- [3.5" Floppy Disks](#35-floppy-disks)
+- [5.25" Floppy Disks](#525-floppy-disks)
+- [Data CDs and DVDs](#data-cds-and-dvds)
+- [Audio-Formatted CDs](#audio-formatted-cds)
+- [Video-Formatted DVDs](#video-formatted-dvds)
+- [USB Drives](#usb-drives)
+- [Secure Digital (SD) Cards](#secure-digital-sd-cards)
+- [Zip Disks](#zip-disks)
+- [HFS or HFS Plus (Mac-Formatted) File Systems](#hfs-or-hfs-plus-mac-formatted-file-systems)
+
+
 ## 3.5" Floppy Disks
 - Connect the external 3.5" floppy disk drive to a USB port on the RMW.
 
@@ -27,7 +39,9 @@ This section includes procedures for transferring content from a number of physi
 
 ![Floppy Scan](images/floppy_scan.png "Floppy Scan")
 
-> **NOTE**: If the scan reveals any threats, eject the disk and remove to the separations. If this is a high-value collection or the disk appears to hold very significant content, remediation and content extraction may be attempted. Consult with the Archivist for Metadata and Digital Curation to determine if such steps are needed. Be sure to include the total number of separated floppy disks on the Separation Record.
+> **Note**
+>
+>If the scan reveals any threats, eject the disk and remove to the separations. If this is a high-value collection or the disk appears to hold very significant content, remediation and content extraction may be attempted. Consult with the Archivist for Metadata and Digital Curation to determine if such steps are needed. Be sure to include the total number of separated floppy disks on the Separation Record.
 
 - Open AccessData FTK Imager and select "Add Evidence Item" from File menu or from toolbar. In the screen that pops up, select "Logical Drive" as the Source Evidence Type. In the next screen select "A:\".
 
@@ -53,7 +67,7 @@ This section includes procedures for transferring content from a number of physi
 
 ![Floppy Export Files](images/floppy_export_files.png "Floppy Export Files")
 
-- You may now click the 'Remove Evidence Item' button and proceed to review content.
+- You may now click the 'Remove Evidence Item' button and proceed to [review content](review.md).
 
 ![Floppy Remove Evidence](images/floppy_remove_evidence.png "Floppy Remove Evidence")
 
@@ -61,13 +75,13 @@ This section includes procedures for transferring content from a number of physi
 
 Transferring data from a 5.25" floppy disk requires the use of Device Side Data's FC5025 Floppy Controller and associated software.
 
-- Insert the floppy disk into the external 5.25" disk drive and connect to the RMW.
+- Insert the 5.25" floppy disk into the external 5.25" disk drive and connect to the RMW.
 
 - Because the drive will not appear in Windows Explorer, click on the 'Disk Image and Browse' icon.
 
 ![Disk Image and Browse](images/disk_image_browse.png "Disk Image and Browse")
 
-- Once the program opens, you must select the correct disk type from the drop down menu at the top of the window. This may involve some trial and error. While many of the floppies reviewed by the Bentley thus far have been MS-DOS formatted, there are a good number of options.
+- Once the program opens, you must select the correct disk type from the drop down menu at the top of the window. This may involve some trial and error. While many of the floppies received by the Bentley thus far have been MS-DOS formatted, there are a good number of options.
 
 ![FC5025 Interface](images/fc5025_interface.jpg "FC5025 Interface")
 
@@ -75,17 +89,21 @@ Transferring data from a 5.25" floppy disk requires the use of Device Side Data'
 
 - If you have exhausted the selection of disk types and content is still unable to be read, the disk may use a unique formatting or have suffered some data loss or degradation. Eject the disk and move it to separations.
 
-> **Note**: If you are working on a high-value collection or the disk appears to hold very significant content, notify the Archivist for Metadata and Digital Curation, as additional efforts may be warranted.
+> **Note**
+>
+> If you are working on a high-value collection or the disk appears to hold very significant content, notify the Archivist for Metadata and Digital Curation, as additional efforts may be warranted.
 
 - Once you have determine that there is in fact content on the disk, click the "Capture Disk Image File" button. Enter the path to the appropriate barcode folder for the image output directory and use the barcode for the image filename. The FC5025 software will then read through the individual tracks on the disk and produce an exact copy of the data therein. If this operation fails, try again. If no disk image is able to be created, eject the disk and move it to separations.
 
-> **Note**: If you are working on a high-value collection or the disk appears to hold very significant content, notify the Archivist for Metadata and Digital Curation, as additional efforts may be warranted.
+> **Note**
+>
+> If you are working on a high-value collection or the disk appears to hold very significant content, notify the Archivist for Metadata and Digital Curation, as additional efforts may be warranted.
 
 - Your next step will be to extract files from the disk image. Open AccessData FTK Imager and select "Add Evidence Item" from File menu or from toolbar. In the screen that pops up, select "Image File" and then browse to the file you just created.
 
 - Once the file is loaded in FTK Imager, navigate to the root directory, which will contain the folders and files that were on the original floppy disk. Export the files to the appropriate barcode folder as detailed in the 3.5" floppy instructions above.
 
-- You may now click the 'Remove Evidence Item' button, delete the disk image file, and proceed to review content.
+- You may now click the "Remove Evidence Item" button, delete the disk image file, and proceed to [review content](review.md).
 
 ## Data CDs and DVDs
 
@@ -97,19 +115,23 @@ Transferring data from a 5.25" floppy disk requires the use of Device Side Data'
 
 ![Optical Scan](images/optical_scan.png "Optical Scan")
 
-> **NOTE**: If the scan reveals any threats, eject the disk and remove to separations. You may also delete the barcode folder and its contents. If this is a high-value collection or the disk appears to hold very significant content, remediation and content extraction may be attempted. Consult with the Archivist for Metadata and Digital Curation to determine if such steps are needed. Be sure to include the total number of separated optical media on the Separation Record.
+> **Note**
+>
+> If the scan reveals any threats, eject the disc and remove to separations. You may also delete the barcode folder and its contents. If this is a high-value collection or the disc appears to hold very significant content, remediation and content extraction may be attempted. Consult with the Archivist for Metadata and Digital Curation to determine if such steps are needed. Be sure to include the total number of separated optical media on the Separation Record.
 
 - Open the DVD-RW Drive to view files on disc. Select all content, right click, and select the "Copy" option. Open the appropriate barcode folder, right-click inside, and select the "Paste" option (alternatively, drag-and-drop from the disc to the appropriate folder). TeraCopy will conduct the file transfer and verify that each file has been successfully copied.
 
 ![Teracopy](images/optical_teracopy.png "Teracopy")
 
-> NOTE: If TeraCopy identifies any errors with the copy operation it may be necessary to employ alternate methods to transfer the files. Contact the Archivist for Metadata and Digital Curation if it appears that important materials have not been successfully transferred.
+> **Note**
+>
+> If TeraCopy identifies any errors with the copy operation it may be necessary to employ alternate methods to transfer the files. Contact the Archivist for Metadata and Digital Curation if it appears that important materials have not been successfully transferred.
 
-- You may now eject the optical disc and proceed to review the content.
+- You may now eject the optical disc and proceed to [review the content](review.md).
 
 ## Audio-Formatted CDs
 
-- For the purposes of this manual, 'audio-formatted CDs' refer to optical media created to be used with a CD player. Archivists will need to create one uncompressed .WAV file for each track and one compressed .WAV file for the CD using a utility called Exact Audio Copy (EAC).
+- For the purposes of this manual, 'audio-formatted CDs' refers to optical media created to be used with a CD player. Archivists will need to create one uncompressed .WAV file for each track and one compressed .WAV file for the CD using a utility called Exact Audio Copy (EAC).
 
 > **Appraisal Note**
 >
@@ -125,7 +147,9 @@ Transferring data from a 5.25" floppy disk requires the use of Device Side Data'
 
 ![Optical Scan](images/optical_scan.png "Optical Scan")
 
-> **NOTE**: If the scan reveals any threats, eject the disc and remove to separations. You may also delete the barcode folder and its contents. If this is a high-value collection or the disc appears to hold very significant content, remediation and content extraction may be attempted. Consult with the Archivist for Metadata and Digital Curation to determine if such steps are needed. Be sure to include the total number of separated optical discs on the Separation Record.
+> **Note**
+>
+> If the scan reveals any threats, eject the disc and remove to separations. You may also delete the barcode folder and its contents. If this is a high-value collection or the disc appears to hold very significant content, remediation and content extraction may be attempted. Consult with the Archivist for Metadata and Digital Curation to determine if such steps are needed. Be sure to include the total number of separated optical discs on the Separation Record.
 
 - Open Exact Audio Copy (EAC) (see below for configuration instructions)
 
@@ -144,9 +168,11 @@ Transferring data from a 5.25" floppy disk requires the use of Device Side Data'
 - Go to *Action* > *Create CUE Sheet* > *Multiple WAV Files With Corrected Gaps...* and save the resulting file (which will automatically be named with the CD title) alongside the WAV files and log. This CUE sheet (plain text) will contain all the metadata you entered as well as information on track listing and timing.
 
 ### Create One Compressed .WAV File for CD with EAC
-This purpose of this step is to generate an access version of the audio CD for the Bentley Digital Media Library.
+This purpose of this step is to generate an access version of the audio CD for the [Bentley Digital Media Library](https://bentley.mivideo.it.umich.edu/).
 
-> Note: The below guidelines are best suited to situations in which there are only a few audio CDs. If there are multiple audio CDs, consider using the "Make DIPs" utility from the bhl_born_digital_utils to generate access WAVs in batch.
+> **Note**
+> 
+> The below guidelines are best suited to situations in which there are only a few audio CDs. If there are multiple audio CDs, consider using the "Make DIPs" utility from the [BHL Born Digital Utilities](https://github.com/bentley-historical-library/bhl_born_digital_utils) to generate access WAVs in batch.
 
 - Ensure that all tracks are checked, and go to *Action* > *Copy Range* > *Compressed*.
 
@@ -156,7 +182,7 @@ This purpose of this step is to generate an access version of the audio CD for t
 
 - Name the file according to the barcode, and save it to the appropriate barcode folder.
 
-- You may now proceed to review content.
+- You may now proceed to [review content](review.md).
 
 ### EAC Configuration
 
@@ -164,7 +190,7 @@ This purpose of this step is to generate an access version of the audio CD for t
 
 ![EAC Character Replacement](images/eac_character_replacement.png "EAC Character Replacement")
 
-- Go to *EAC* > *EAC Options* > *Write* and disable the option to use all uppercase characters on writing: 
+- Go to *EAC* > *EAC Options* > *Write* and disable the option to use all uppercase characters on writing:
 
 ![EAC Write](images/eac_write.png "EAC Write")
 
@@ -191,11 +217,11 @@ One way to recognize such media is by its AUDIO_TS and VIDEO_TS folders:
 
 ![AUDIO_TS and VIDEO_TS](images/dvd_audio_video_ts.png "AUDIO_TS and VIDEO_TS")
 
-> Note
+> **Note**
 >
 > When a collection contains large amounts of CDs and/or DVDs, using the RipStation may be more efficient than individually transferring content from discs using the removable media workstation.
 
-> Appraisal Note
+> **Appraisal Note**
 >
 > Due to the time required to create an .ISO disk image and rip an .MP4 file, you may first review the content with VLC Media Player (if necessary) to verify that it falls within the Bentley's collecting scope and should be migrated off the original media. Be sure to include the total number of separated optical discs the Separation Record.
 
@@ -205,7 +231,9 @@ To ensure that we preserve the original viewing experience and any associated in
 
 ![DVD Virus Scan](images/dvd_virus_scan.png "DVD Virus Scan")
 
-> NOTE: If scan reveals any threats, stop appraisal and migration procedures, remove media, and include disk with separations. If this is a high-value collection or the disc is reported to contain very significant content, remediation and content extraction may be attempted. Be sure to include the total number of separated optical discs the Separation Record.
+> **Note**
+>
+> If the scan reveals any threats, stop appraisal and migration procedures, remove media, and include disc with separations. If this is a high-value collection or the disc is reported to contain very significant content, remediation and content extraction may be attempted. Be sure to include the total number of separated optical discs the Separation Record.
 
 ### Creating an .ISO Disk Image with FTK Imager
 - Open AccessData FTK Imager and select *File* > *Create Disk Image* or click the "Create Disk Image" icon on the navigation menu.
@@ -220,10 +248,14 @@ To ensure that we preserve the original viewing experience and any associated in
 
 - Click Finish and then click Start. FTK Imager will track the progress of the image creation and inform you of the operation results. If image creation fails due to file system or formatting errors, it may not be possible to create an image.
 
-> Note: FTK Imager may produce multiple segmented .ISO files (.01, .02, .03, etc.), as it imposes a 1 GB size limit per .ISO image. All of these files (and associated .CUE file) must be kept together, as they are all required to produce the exact copy of the optical disc.
+> **Note**
+>
+> FTK Imager may produce multiple segmented .ISO files (.01, .02, .03, etc.), as it imposes a 1 GB size limit per .ISO image. All of these files (and associated .CUE file) must be kept together, as they are all required to produce the exact copy of the optical disc.
 
 ### Creating .MP4 File(s) with HandBrake
-> Note: The below guidelines are best suited to situations in which there are only a few video DVDs. If there are multiple video DVDs, consider using the "Make DIPs" utility from the bhl_born_digital_utils to generate .mp4s in batch.
+> **Note**
+>
+> The below guidelines are best suited to situations in which there are only a few video DVDs. If there are multiple video DVDs, consider using the "Make DIPs" utility from the bhl_born_digital_utils to generate .mp4s in batch.
 
 - Open HandBrake. In the Source Selection screen, click "Cancel." We want to update some settings before adding a source to avoid potential complications.
 
@@ -237,7 +269,7 @@ To ensure that we preserve the original viewing experience and any associated in
 
 ![HandBrake Output Files](images/handbrake_output_files.png "HandBrake Output Files")
 
-> Note
+> **Note**
 >
 > If you're working with a non-commercial DVD and, as a result, "Automatically name output files" results in a non-unique default name to your MP4 file, change the name to the item's barcode, e.g., "File Format: 39015094760579" (without the {source} or {title}).
 >
@@ -255,10 +287,10 @@ To ensure that we preserve the original viewing experience and any associated in
 
 - Click "Start Encode". HandBrake will go through the queue and provide progress information near the bottom of the window. It may take a relatively long period of time for the conversion process to complete. It may be necessary to adjust the power settings on your work station so that it will not sleep.
 
-- After completing the above steps, you may conduct a more thorough review to record any information about the contents.
+- After completing the above steps, you may proceed to [review content](review.md).
 
 ## USB Drives
-- Press the power button to turn on the Tableau UltraBay 4 and insert the USB drive into the USB 3.0 port on the UltraBay.
+- Press the power button on the Tableau UltraBay 4 to turn on the bay and insert the USB drive into the USB 3.0 port on the UltraBay.
 
 ![UltraBay 4](images/ultrabay4.jpg "UltraBay 4")
 
@@ -266,11 +298,13 @@ To ensure that we preserve the original viewing experience and any associated in
 
 ![USB Scan](images/usb_scan.png "USB Scan")
 
-> NOTE: If scan reveals any threats, stop appraisal and migration procedures, remove media, and include disk with separations. If this is a high-value collection or the USB drive is reported to contain very significant content, remediation and content extraction may be attempted. Be sure to include the total number of separated optical discs the Separation Record.
+> **Note**
+>
+> If the scan reveals any threats, stop appraisal and migration procedures, remove media, and include the drive with separations. If this is a high-value collection or the USB drive is reported to contain very significant content, remediation and content extraction may be attempted. Be sure to include the total number of separated drives on the Separation Record.
 
 - Open the drive. Transfer files using TeraCopy (the default copy handler on the RMWs): highlight and copy content and then paste into the appropriate barcode folder or drag-and-drop from the drive to the appropriate barcode folder.
 
-- To remove the USB drive, click on the "Safely Remove Hardware and Eject Media" icon at the bottom right of the Windows toolbar and select "Eject T356789iu". You are now ready to review the content.
+- To remove the USB drive, click on the "Safely Remove Hardware and Eject Media" icon at the bottom right of the Windows toolbar and select "Eject T356789iu". You are now ready to [review the content](review.md).
 
 ## Secure Digital (SD) Cards
 - Attach the UltraBlock Forensic Card Reader to a USB port on the RMW.
@@ -285,9 +319,11 @@ To ensure that we preserve the original viewing experience and any associated in
 
 ![SD Scan](images/sd_scan.png "SD Scan")
 
-> NOTE: If the scan reveals any threats, stop appraisal and migration procedures, remove media, and include the card with separations. If this is a high-value collection or the card is reported to contain very significant content, remediation and content extraction may be attempted. Be sure to include the total number of separated cards on the Separation Record.
+> **Note**
+>
+> If the scan reveals any threats, stop appraisal and migration procedures, remove media, and include the card with separations. If this is a high-value collection or the card is reported to contain very significant content, remediation and content extraction may be attempted. Be sure to include the total number of separated cards on the Separation Record.
 
-- You may now proceed to copy folders/files to the appropriate barcode directory with Teracopy (as with USB drives above). Review content when copy operation is complete.
+- You may now proceed to copy folders/files to the appropriate barcode directory with Teracopy (as with USB drives above). After copying is complete, proceed to [review the content](review.md).
 
 ## Zip Disks
 - Turn on the Tableau UltraBay 4 and attach an external Zip disk drive into the USB 3.0 port on the drive. Insert the Zip disk into the drive.
@@ -297,12 +333,17 @@ To ensure that we preserve the original viewing experience and any associated in
 - From the Start menu, select This PC, right click on the appropriate drive, and select "Scan with Windows Defender..."
 
 ![Zip Scan](images/zip_scan.png "Zip Scan")
-> NOTE: If the scan reveals any threats, stop appraisal and migration procedures, remove media, and include Zip disk with separations. If this is a high-value collection or the Zip disk is reported to contain very significant content, remediation and content extraction may be attempted. Be sure to include the total number of separated Zip disks on the Separation Record.
 
-- You may now proceed to copy folders/files to the appropriate barcode directory with Teracopy (as with USB drives above). Review content when copy operation is complete.
+> **Note**
+>
+> If the scan reveals any threats, stop appraisal and migration procedures, remove media, and include Zip disk with separations. If this is a high-value collection or the Zip disk is reported to contain very significant content, remediation and content extraction may be attempted. Be sure to include the total number of separated Zip disks on the Separation Record.
 
-> Note: When finishing copying, it may be necessary to plug the Zip disk drive into one of the non-UltraBay USB ports to supply enough power to eject the disk. **Be very careful as connecting the drive to a non-UltraBay port will disable write blocking**
+- You may now proceed to copy folders/files to the appropriate barcode directory with Teracopy (as with USB drives above). After copying is complete, proceed to [review the content](review.md).
+
+> **Note**
+>
+> When finishing copying, it may be necessary to plug the Zip disk drive into one of the non-UltraBay USB ports to supply enough power to eject the disk. **Be very careful as connecting the drive to a non-UltraBay port will disable write blocking**
 
 ## HFS or HFS Plus (Mac-Formatted) File Systems
-The Bentley has a Mac Removable Media Workstation. Instructions for using that machine are forthcoming. In the meantime, transfer content similarly to the above by connecting the external Tableau T8-R2 Forensic USB Bridge to the Mac and then connecting the removable media device to the USB bridge. Content the Archivist for Metadata and Digital Curation for additional assistance. 
+The Bentley has a Mac Removable Media Workstation. Instructions for using that machine are forthcoming. In the meantime, transfer content similarly to the above by connecting the external Tableau T8-R2 Forensic USB Bridge to the Mac and then connecting the removable media device to the USB bridge. Contact the Archivist for Metadata and Digital Curation for additional assistance. 
 

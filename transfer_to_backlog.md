@@ -13,6 +13,12 @@ In Archivematica, a transfer begins the process of transforming any set of digit
 
 Transfers are then sent to a managed backlog for storage until they are ready to be retrieved and processed at a later date. They are also noted in the accession record.
 
+**Table of Contents**
+- [Transferring from the RMW](#transferring-from-the-rmw)
+- [Pre-backlog Transfer Review](#pre-backlog-transfer-review)
+- [Transfer to Backlog](#transfer-to-backlog)
+- [Tracking Transfers in ArchivesSpace](#tracking-transfers-in-archivesspace)
+
 ## Transferring from the RMW
 The first step in transferring content into the Bentley's backlog is to transfer the content from one of the RMWs to the Bentley's remote digital archival storage (aka the bhl-digitalarchive or R drive).
 
@@ -22,27 +28,27 @@ The first step in transferring content into the Bentley's backlog is to transfer
 
 - Enter your U-M username and password. This will mount the drive on the RMWs "R:" drive.
 
-> Note
+> **Note**
 >
 > If you do not have permission to access the bhl-digitalarchive, notify the Archivist for Metadata and Digital Curation
 
-## Copying from the RMW
+### Copying from the RMW
 Use the [BHL Born Digital Utilities' copy utility](https://github.com/bentley-historical-library/bhl_born_digital_utils#copy-accession-from-rmw) to copy a given transfer from the RMW to the bhl-digitalarchive
 
 `bhl_bd_utils.py ACCESSION_NUM --copy`
 
 This will use robocopy on the RMW to securely transfer the content.
 
-> Note
+> **Note**
 >
 > If robocopy reports that any content was not able to be transferred, consult with the Archivist for Metadata and Digital Curation
 
-## Cleaning Up the RMW
+### Cleaning Up the RMW
 - Once you have successfully transferred an accession from the RMW to the R: drive, you may delete the `D:\Collections\[accession]` directory.
 - [Disconnect](http://www.wikihow.com/Disconnect-a-Mapped-Network-Drive) the bhl-digitalarchive
 
 ## Pre-backlog Transfer Review
-> Note
+> **Note**
 >
 > The following steps will be completed by the Archivist for Metadata and Digital Curation
 
@@ -53,10 +59,15 @@ This will use robocopy on the RMW to securely transfer the content.
 - Once all separations, AV media, and the bhl_inventory.csv have been moved and the transfer is ready to be sent to backlog, [bag](https://tools.ietf.org/html/draft-kunze-bagit-12) the transfer
 - Determine whether a given transfer should be transferred into Archivematica's backlog or the `R:\Backlog` directory. Larger transfers, those that are relatively homogenous in nature, those that contain significant amounts of audiovisual content, and those that contain a significant amount of existing arrangement and description (e.g., well-defined directory structure and file naming conventions) are good candidates for storing in `R:\Backlog` as the Archivematica Appraisal tab will be of limited utility. On the other hand, smaller transfers, those that are relatively heterogenous in nature, and those that contain no readily identifiable or reusable arrangement and description are good candidates for transferring into Archivematica's backlog for further appraisal.
 
-## Transfer to R:\Backlog
+## Transfer to Backlog
+> **Note**
+>
+> The following steps will be completed by the Archivist for Metadata and Digital Curation
+
+### Transfer to R:\Backlog
 If a given accession should be transferred into the `R:\Backlog` directory, simply move the bagged accession directory from `R:\Born-Digital Processing` to `R:\Backlog`
 
-## Transfer to Archivematica's backlog
+### Transfer to Archivematica's backlog
 - Move the bagged accession directory from `R:\Born-Digital Processing` to `R:\Backlog\born_digital_processing_transfer`
 - In the Archivematica dashboard, select the appropriate transfer type from the drop down menu. Typically, this will be the "Unzipped bag" option, though we will occasionally use the "Standard" type
 - For "Transfer name," use the name of the top directory. Typically, this is the Accession ID, although when an accession has been broken up into multiple transfers, it will be the Accession ID with a three-digit sequential suffix (e.g., _001, _002, _003, etc.) appended to it.
@@ -65,12 +76,16 @@ If a given accession should be transferred into the `R:\Backlog` directory, simp
 - Ensure that the "Approve automatically" box is checked and click the "Start transfer" button
 - The transfer will now run through a series of micro-services set by the Archivist for Metadata and Digital Curation in the Administration tab before it is deposited into a managed backlog.
 
-![Archivematica Transfer](images/archivematica_transfer.png "Archivematica Transfer)
+![Archivematica Transfer](images/archivematica_transfer.png "Archivematica Transfer")
 
 ### Cleaning up the transfer source location
 After an accession has been successfully transferred into Archivematica's backlog, move the transfer directory to `R:\Backlog\Done_transferred_AM_backlog`. This helps to ensure that the transfer source location remains clear of already-transferred materials. The Archivist for Metadata and Digital Curation will delete materials from the `Done_transferred_AM_backlog` from time to time.
 
-## Tracking Transfer in ArchivesSpace
+## Tracking Transfers in ArchivesSpace
+> **Note**
+>
+> The following steps will be completed by the Archivist for Metadata and Digital Curation
+
 It is essential to be able to track the location of transferred materials in the backlog in the Bentley's collection management system, ArchivesSpace. This information will be referenced by the processing archivist to locate the materials and proceed with digital processing.
 
 - In ArchivesSpace, select "Identifier" from the advanced search drop down menu, search using the accession number, and select the appropriate result.

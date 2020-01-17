@@ -18,8 +18,9 @@ Once the above steps have been completed, you are ready to move forward.
 
 `bhl_bd_utils.py [accession_number] --create_transfer`
 
-The script will create a `D:\Collections\[accession_number]` directory, copy a `bhl_inventory.csv` template to the directory, and prompt you to scan each piece of media's barcode and to take one or more photos of the media. 
+The script will create a `D:\Collections\[accession_number]` directory, copy a `bhl_inventory.csv` template to the directory, and prompt you to scan each piece of media's barcode and to take one or more photos of the media.
 
+## Photographing Media
 Take photographs of the media using the Logitech webcam. Open the Windows Camera application to begin.
 
 The purpose of this step is two-fold. First, it is to document anything about the removable media or its carrier that may have evidential value for researchers (e.g., handwritten notes). The second is to provide a thumbnail for our access platforms (such as this [item](https://bentley.mivideo.it.umich.edu/media/t/1_s4ho26s7) in the Bentley Digital Media Library) and the Notice of Removable Media that will be placed in the physical folder of the originating box.
@@ -32,7 +33,7 @@ Tips for taking good photographs with the webcam:
 
 - You can take more than one photo per item if necessary to capture all important information about the media (e.g., one photo of the removable media, one of the front of its carrier, one of its back, etc.), but ensure that the first image you take is "representative," i.e., that it could be used as a thumbnail in an access system.
 
-- Make sure the camera is level and adjust when necessary. Try to move the camera as little as possible since this will impact the accuracy of Python auto-cropping settings.
+- Make sure the camera is level and adjust when necessary. Try to move the camera as little as possible since this will impact the accuracy of Python cropping settings.
 
 - To minimize glare, make sure the front flap of the light box is down.
 
@@ -53,9 +54,9 @@ When media is positioned properly with all information showing and the camera se
 After you have taken the photograph(s), return to the Windows Command Prompt and hit enter. This will:
 
 - Create a folder (using the barcode number as the directory name) inside the accession folder
-- Create a `bhl_metadata` subfolder than contains the photo(s) you took renamed as `media_0.jpg`, `media_1.jpg`, etc. and cropped to remove the area outside of the ruler paper
+- Create a `bhl_metadata` subfolder that contains the photo(s) you took renamed as `media_0.jpg`, `media_1.jpg`, etc. and cropped to remove the area outside of the ruler paper
 - Create a `bhl_notices` directory within the accession folder with an HTML file that documents the removal of media from folders, if applicable
 
 ![Create Transfer](images/create_transfer.png "Create Transfer")
 
-The script will ask if there are more pieces of removable media to be transferred as part of the accession. Continue responding to the prompts until all pieces of media are accounted for, and then proceed to transfer from media.
+The script will ask if there are more pieces of removable media to be transferred as part of the accession. Continue responding to the prompts until all pieces of media are accounted for, and then proceed to [transfer from media](transfer_from_media.md).

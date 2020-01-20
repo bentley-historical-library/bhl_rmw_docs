@@ -2,6 +2,11 @@
 
 The following guidelines dictate our approach to retention and disposition of physical media after files have been successfully transferred from it.
 
+**Table of Contents**
+- [Default Procedure](#default-procedure)
+- [Procedures for Disposal, Return, and Retention](#procedures-for-disposal-return-and-retention)
+- [Logistics](#logistics)
+
 ## Default Procedure
 
 Our default procedure is to recycle or shred removable media after content has been successfully transferred. There are some exceptions to this rule, including:

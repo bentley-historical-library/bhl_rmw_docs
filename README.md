@@ -16,7 +16,7 @@ These guidelines have five basic steps:
 2. [Transfer from media](transfer_from_media.md) (unique to each media format)
 3. [Reviewing content](review.md) (common to all items)
 4. [Transfer to backlog](transfer_to_backlog.md) (common to all items)
-5. Retention and disposal of physical media (unique to each collection)
+5. [Retention and disposal of physical media](retention_and_disposal.md) (unique to each collection)
 
 There's also a page with instructions for [Using the RipStation](using_the_ripstation.md) and a [Hardware and Software page](hardware_and_software.md) detailing the RMWs' equipment.
 

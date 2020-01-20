@@ -1,5 +1,14 @@
 # Review Content
 
+**Table of Contents**
+- [Introduction](#introduction)
+- [Reviewing Content](#reviewing-content)
+- [Transfer and Appraisal Notes](#transfer-and-appraisal-notes)
+- [Notice of Media Removal](#notice-of-media-removal)
+- [Post-transfer Utilities](#post-transfer-utilities)
+
+## Introduction
+
 Once you have successfully migrated content from the original media, you may proceed to appraise the material to determine if it will be included in the Bentley's permanent collections.
 
 > **Note**
@@ -12,12 +21,6 @@ This high-level appraisal and review serves two purposes:
 
 1. To determine if the content falls within the Bentley Historical Library's collecting scope and should be considered for its permanent collections.
 2. To record basic information about the media and contents that will facilitate the arrangement and description of this material during [digital processing](https://sites.google.com/a/umich.edu/bhl-archival-curation/processing-archival-collections/08-digital-processing). This latter step will involve an additional review that will result in separations and/or the packaging of digital objects for deposit into the Bentley's digital repository.
-
-**Table of Contents**
-- [Reviewing Content](#reviewing-content)
-- [Transfer and Appraisal Notes](#transfer-and-appraisal-notes)
-- [Notice of Removable Media](#notice-of-removable-media)
-- [Post-transfer Utilities](#post-transfer-utilities)
 
 ## Reviewing Content
 

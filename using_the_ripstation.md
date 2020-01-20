@@ -1,9 +1,7 @@
 # Using the RipStation
-The [RipStation](http://www.mfdigital.com/ripstation.html) allows you to automate the transfer of content off of large batches of optical media. When a collection contains large amounts of CDs and/or DVDs, using the RipStation may be more efficient than individually transferring content from discs using the removable media workstation. Consult with the Archivist for Metadata Digital Curation when processing collections with large amounts of optical media (i.e. CDs and DVDs).
-
-The RipStation requires the use of different software based on the content stored on the optical discs. For data CDs and DVDs, the DataGrabber program is used. For audio-formatted discs, the RipStation program is used. For video-formatted discs, the MediaGrabber program is used. See the following workflow for further instruction.
 
 **Table of Contents**
+- [Introduction](#introduction)
 - [Preliminary Procedures](#preliminary-procedures)
 - [Working with Data CDs and DVDs](#working-with-data-cds-and-dvds)
 - [Working with Audio-formatted CDs](#working-with-audio-formatted-cds)
@@ -11,6 +9,10 @@ The RipStation requires the use of different software based on the content store
 - [Finishing Up](#finishing-up)
 - [Troubleshooting](#troubleshooting)
 
+## Introduction
+The [RipStation](http://www.mfdigital.com/ripstation.html) allows you to automate the transfer of content off of large batches of optical media. When a collection contains large amounts of CDs and/or DVDs, using the RipStation may be more efficient than individually transferring content from discs using the removable media workstation. Consult with the Archivist for Metadata Digital Curation when processing collections with large amounts of optical media (i.e. CDs and DVDs).
+
+The RipStation requires the use of different software based on the content stored on the optical discs. For data CDs and DVDs, the DataGrabber program is used. For audio-formatted discs, the RipStation program is used. For video-formatted discs, the MediaGrabber program is used. See the following workflow for further instruction.
 
 ## Preliminary Procedures
 

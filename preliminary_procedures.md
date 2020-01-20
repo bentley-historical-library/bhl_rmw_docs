@@ -1,5 +1,10 @@
 # Preliminary Procedures
 
+**Table of Contents**
+- [Barcodes and Accession IDs](#barcodes-and-accession-ids)
+- [Collection Setup](#collection-setup)
+- [Photographing Media](#photographing-media)
+
 ## Barcodes and Accession IDs
 In order to migrate content off of removable media, several preliminary steps must take place, which include creating an [accession record](https://sites.google.com/a/umich.edu/bhl-archival-curation/accessions/archivesspace-accessions) in ArchivesSpace, applying a barcode to the media's housing, and photographing the media.
 

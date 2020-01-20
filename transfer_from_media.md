@@ -1,5 +1,19 @@
 # Transfer from Media
 
+**Table of Contents**
+- [Introduction](#introduction)
+- [3.5" Floppy Disks](#35-floppy-disks)
+- [5.25" Floppy Disks](#525-floppy-disks)
+- [Data CDs and DVDs](#data-cds-and-dvds)
+- [Audio-Formatted CDs](#audio-formatted-cds)
+- [Video-Formatted DVDs](#video-formatted-dvds)
+- [USB Drives](#usb-drives)
+- [Secure Digital (SD) Cards](#secure-digital-sd-cards)
+- [Zip Disks](#zip-disks)
+- [HFS or HFS Plus (Mac-Formatted) File Systems](#hfs-or-hfs-plus-mac-formatted-file-systems)
+
+## Introduction
+
 This section includes procedures for transferring content from a number of physical media types. If you don't see instructions for the media in your accession (common examples include Digital Audio Tapes [DATs] and tape drives), talk with the Archivist for Metadata and Digital Curation. Typically, we'll record [item-level extent statements](https://sites.google.com/a/umich.edu/bhl-archival-curation/processing-archival-collections/09-description/c-aspace-archival-objects#extents) (as in the [Audiovisual Extent guidelines](https://sites.google.com/a/umich.edu/bhl-archival-curation/processing-archival-collections/10-audiovisual-processing-guidelines/audiovisual-extent)) to aid our ability to inventory these items at a later date (e.g., when we obtain a reader for that type of media or identify a vendor to transfer it). For important collections, however, we may explore alternative and more immediate means of transferring content from the media.
 
 > **Note**
@@ -13,18 +27,6 @@ This section includes procedures for transferring content from a number of physi
 > **Note**
 >
 > Many scenarios below describe a situation in which a piece of removable media might be separated. For any removable media that is separated, prepend the barcode directory with an underscore (e.g., `_39015094761643`) and indicate that the media was separated in the `bhl_inventory.csv`, to assist with further processing of the transfer, and be sure to include the total number of separated media for each type on the Separation Record.
-
-**Table of Contents**
-- [3.5" Floppy Disks](#35-floppy-disks)
-- [5.25" Floppy Disks](#525-floppy-disks)
-- [Data CDs and DVDs](#data-cds-and-dvds)
-- [Audio-Formatted CDs](#audio-formatted-cds)
-- [Video-Formatted DVDs](#video-formatted-dvds)
-- [USB Drives](#usb-drives)
-- [Secure Digital (SD) Cards](#secure-digital-sd-cards)
-- [Zip Disks](#zip-disks)
-- [HFS or HFS Plus (Mac-Formatted) File Systems](#hfs-or-hfs-plus-mac-formatted-file-systems)
-
 
 ## 3.5" Floppy Disks
 - Connect the external 3.5" floppy disk drive to a USB port on the RMW.

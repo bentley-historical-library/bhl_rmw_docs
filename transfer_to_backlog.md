@@ -1,4 +1,13 @@
 # Transfer to Backlog
+
+**Table of Contents**
+- [Introduction](#introduction)
+- [Transferring from the RMW](#transferring-from-the-rmw)
+- [Pre-backlog Transfer Review](#pre-backlog-transfer-review)
+- [Transfer to Backlog](#transfer-to-backlog-1)
+- [Tracking Transfers in ArchivesSpace](#tracking-transfers-in-archivesspace)
+
+## Introduction
 When an accession includes digital content (whether transferred from removable media or via some other means), it is transferred to Archivematica's backlog (or, in some cases, the Bentley's digital storage backlog) in one or more transfers. 
 
 In Archivematica, a transfer begins the process of transforming any set of digital objects and/or directories into a SIP. Once uploaded to the dashboard, transfers in the Transfer tab run through several micro-services, including:
@@ -12,12 +21,6 @@ In Archivematica, a transfer begins the process of transforming any set of digit
 - metadata extraction
 
 Transfers are then sent to a managed backlog for storage until they are ready to be retrieved and processed at a later date. They are also noted in the accession record.
-
-**Table of Contents**
-- [Transferring from the RMW](#transferring-from-the-rmw)
-- [Pre-backlog Transfer Review](#pre-backlog-transfer-review)
-- [Transfer to Backlog](#transfer-to-backlog)
-- [Tracking Transfers in ArchivesSpace](#tracking-transfers-in-archivesspace)
 
 ## Transferring from the RMW
 The first step in transferring content into the Bentley's backlog is to transfer the content from one of the RMWs to the Bentley's remote digital archival storage (aka the bhl-digitalarchive or R drive).

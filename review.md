@@ -5,6 +5,7 @@
 - [Reviewing Content](#reviewing-content)
 - [Transfer and Appraisal Notes](#transfer-and-appraisal-notes)
 - [Notice of Media Removal](#notice-of-media-removal)
+- [Running Brunnhilde](#running-brunnhilde)
 - [Post-transfer Utilities](#post-transfer-utilities)
 
 ## Introduction
@@ -69,7 +70,7 @@ After you have safely transferred all media for a given transfer and ejected the
 
 Delete the `bhl_notices` directory once the above steps have been completed.
 
-## Brunnhilde
+## Running Brunnhilde
 The Bentley uses [Brunnhilde](https://github.com/tw4l/brunnhilde) to generate reports on the contents of a given transfer. Brunnhilde can be run as a utility from the [BHL Born Digital Utilities](https://github.com/bentley-historical-library/bhl_born_digital_utils). The utility is configured to run Brunnhilde with the `-z` (decompress and scan archived files) and `-n` (skip virus scan) options. The outputs of this scan include a CSV output from Siegfried, a tree report of the transfer's directory structure, and an HTML report with aggregate statistics for the transfer including detailed information about file formats, unidentified files, last modified dates, and duplicate files. In order to use the full functionality of this utility, it can only be run from a Linux or macOS machine.
 
 On the Windows-based Removable Media Workstations, start a Linux virtual machine to use Brunnhilde.

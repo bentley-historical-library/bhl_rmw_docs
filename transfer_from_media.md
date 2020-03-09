@@ -77,7 +77,11 @@ This section includes procedures for transferring content from a number of physi
 
 Transferring data from a 5.25" floppy disk requires the use of Device Side Data's FC5025 Floppy Controller and associated software.
 
-- Insert the 5.25" floppy disk into the external 5.25" disk drive and connect to the RMW.
+- Connect the external 5.25" floppy disk drive to a USB port on the RMW
+
+![External 5.25" floppy drive](images/525_floppy_drive.jpg "External 5.25 floppy drive")
+
+- Insert the 5.25" floppy disk into the external 5.25" disk drive
 
 - Because the drive will not appear in Windows Explorer, click on the 'Disk Image and Browse' icon.
 
@@ -89,21 +93,29 @@ Transferring data from a 5.25" floppy disk requires the use of Device Side Data'
 
 - Click the 'Browse Disk Contents' button to view any files. If you have selected the appropriate disk type, you will see a file listing in the new window that opens. If no files can be read, you may need to select a different disk type and try to browse again.
 
+
+
 - If you have exhausted the selection of disk types and content is still unable to be read, the disk may use a unique formatting or have suffered some data loss or degradation. Eject the disk and move it to separations.
 
 > **Note**
 >
 > If you are working on a high-value collection or the disk appears to hold very significant content, notify the Archivist for Metadata and Digital Curation, as additional efforts may be warranted.
 
-- Once you have determine that there is in fact content on the disk, click the "Capture Disk Image File" button. Enter the path to the appropriate barcode folder for the image output directory and use the barcode for the image filename. The FC5025 software will then read through the individual tracks on the disk and produce an exact copy of the data therein. If this operation fails, try again. If no disk image is able to be created, eject the disk and move it to separations.
+- Once you have determine that there is in fact content on the disk, you are ready to create a disk image. Enter the path to the appropriate barcode folder for the image output directory and use the barcode for the image filename, and then click the "Capture Disk Image File" button. The FC5025 software will then read through the individual tracks on the disk and produce an exact copy of the data therein. If this operation fails, try again. If no disk image is able to be created, eject the disk and move it to separations.
 
 > **Note**
 >
 > If you are working on a high-value collection or the disk appears to hold very significant content, notify the Archivist for Metadata and Digital Curation, as additional efforts may be warranted.
 
+![Path and Barcode](images/525_floppy_path_and_barcode.PNG "Path and barcode")
+
 - Your next step will be to extract files from the disk image. Open AccessData FTK Imager and select "Add Evidence Item" from File menu or from toolbar. In the screen that pops up, select "Image File" and then browse to the file you just created.
 
+![FTK Add Evidence Item](images/525_floppy_ftk_add_image.PNG "FTK Add Evidence Item")
+
 - Once the file is loaded in FTK Imager, navigate to the root directory, which will contain the folders and files that were on the original floppy disk. Export the files to the appropriate barcode folder as detailed in the 3.5" floppy instructions above.
+
+![FTK Export FIles](images/525_floppy_ftk_export_files.PNG "FTK Export Files")
 
 - You may now click the "Remove Evidence Item" button, delete the disk image file, and proceed to [review content](review.md).
 
